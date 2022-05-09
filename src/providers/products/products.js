@@ -9,10 +9,10 @@ export const ProductsContext = createContext();
 export const ProductsProvider = ({children}) => {
    
     const [products] = useState([      
-        { id: 1, image: BreakingBad , name: "Quadro Breaking Bad", price: 20.59},
-        { id: 2, image: FightClub , name: "Quadro Fight Club", price: 20.59},
-        { id: 3, image: PulpFiction , name: "Quadro Pulp Fiction", price: 20.59},
-        { id: 4, image: MiaWallace , name: "Quadro Mia Wallace", price: 20.59},
+        { id: 1, image: BreakingBad , name: "Quadro Breaking Bad", price: 20},
+        { id: 2, image: FightClub , name: "Quadro Fight Club", price: 25},
+        { id: 3, image: PulpFiction , name: "Quadro Pulp Fiction", price: 22},
+        { id: 4, image: MiaWallace , name: "Quadro Mia Wallace", price: 28},
     ])
   
 

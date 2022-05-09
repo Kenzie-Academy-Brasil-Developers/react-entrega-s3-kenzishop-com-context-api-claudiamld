@@ -1,10 +1,7 @@
-
-const Button = ({item}) => {
+const Button = ({item, children, click}) => {
 
     return (
-        <div>
-            estou aqui button 
-        </div>
+        <button item={item} onClick={click}>{children}</button>
     )
 }
 export default Button
